@@ -1,0 +1,499 @@
+/*---------------bs-edit*/
+
+/*---------------------*/
+/*-----------------nav*/
+
+/*-------------------*/
+/*---------------main*/
+.social{
+    min-height: 100vh;
+    margin: auto;
+    margin-bottom: 10px;
+    max-width: 1378px;
+    padding-left: 50px;
+    padding-right: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--bg-m);
+}
+/*-------------------*/
+/*---------------chat-marawan*/
+.chatmini{
+    width: 135px;
+    border: 0px solid var(--dividor2) !important;/*//!*/
+    padding-left: 15px;
+    padding-top: 20px;
+    border-width: 0px 0.5px 0px 0px;
+    position: sticky;
+    top: 80px;
+}
+.chatitems{
+    padding: 0px;
+}
+.chatitem{
+    margin-bottom: 25px;
+}
+.chaticon{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    background-color: var(--elementbg);
+}
+.chatnotify{
+    border-radius: 50%;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    bottom: 0px;
+    right: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--notifydot);
+    color: var(--sitetxt);
+    font-size: 12px;
+}
+/*-------------------*/
+/*---------------post*/
+
+/* .bsddm{
+    border-radius: 0px;
+    border: none;
+    box-shadow: 1px 1px 10px 5px #00000013;
+    background-color: var(--style);
+    margin-top: 13px !important;
+}
+.bsddi{
+    color: var(--sitetxt);
+    font-size: 16px;
+}
+.bsddi:hover{
+    background-color: var(--bg);
+    color: var(--style);
+} */
+
+
+.senderopen{
+    font-family: "icons";
+    color: var(--style);
+    direction: rtl;
+    position: sticky;
+    top: 50px;
+    background-color: var(--bg-m);
+    height: 60px;
+    padding-top: 25px;
+    border-bottom: 1px solid var(--dividor2);
+    padding-right: 20px;
+    font-size: 14px;
+    /* box-shadow: 0px 5px 10px #0000000e; */
+}
+.senderopentitle{
+    font-size: 14px;
+    font-weight: 700;
+}
+.senderopen:hover{
+    text-decoration: underline;
+}
+.senderform{
+    background-color: var(--bg);
+    margin: auto;
+    /* top: 30px !important; */
+    bottom: unset !important;
+    /* min-height: 430px !important; */
+    height: auto !important;
+    /* width: auto !important; */
+    max-width: 594px !important;
+    box-shadow: 0px 0px 10px #0000004f;
+}
+/* .senderform>*,.senderform *,.senderform+*,.senderform~*{
+    transition-duration: inherit;
+} */
+.senderformheader{
+    background-color: var(--style);
+    height: 65px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 30px; color: var(--sitetxt);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-family: "icons";
+}
+.senderformTA{
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    height: 192px;
+    background-color: var(--elementbg);
+    border: none;
+}
+.senderpostdividor{
+    width: 85%;
+    margin-left: 10px;
+    background-color: var(--dividor);
+}
+.addphotoheader{
+    padding-left:1.65% ;
+    padding-right: 1.76%;
+    color: var(--secondtxt);
+    font-size: 14px;
+}
+.senderpostimg{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*solve*/
+    width: 92px;
+    height: 66px;
+    margin-right: 1.2%;
+    background-color: var(--elementbg)
+}
+.postaddphoto{
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    background-color: var(--style);
+    padding: 8px;
+    text-align: center;
+    margin-left: 20px;
+    Color: var(--sitetxt)
+}
+
+
+.postscon{
+    /* margin: 0px 40px 0px 40px; */
+    position: relative;
+    top: 0px;
+}
+.postcon{
+    margin: auto;
+    margin-top: 15px;
+    max-width: 593px;
+    /* box-shadow: 0px 0px 10px #0000000f; */
+    border: 1px solid var(--conborder);
+    background-color: var(--bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.postheader{
+    width: 100%;
+    padding:20px 32px 0px 20px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sender{
+    display: flex;
+}
+.postsenderphoto{
+    background-color: var(--elementbg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 35.5px;
+    height: 35.5px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.posttimesendername{
+    padding-top: 2px;
+    color: var(--firsttxt);
+}
+.postsendername{
+    text-transform: capitalize;
+    font-size: 14px;
+    display: block;
+}
+.posttime{
+    color: var(--thirdtxt);
+    font-size: 12px;
+}
+.postmenu{
+
+}
+.postmenuicon{
+    font-family: "icons";
+    color: var(--iconbtn-d);
+}
+
+.posttxt{
+    width: 100%;
+    padding: 0px 30px 0px 30px;
+    /* margin-top: 0px; */
+    margin-bottom: 20px;
+}
+.entertxt{
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: var(--firsttxt);
+}
+.readmore{
+    font-size: 12px;
+    text-decoration: underline;
+    font-weight: 700;
+}
+.postimg{
+    width: 100%;
+    padding: 0px 15px 0px 15px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+
+    /*flex-direction: column;*//*on 2 img*/
+    /*flex-direction: row;*//*on 4 img*/
+}
+.imglimeter{
+    margin: 5px;
+    width: 100%;
+    padding: 0px;
+    max-height: 464px;
+    overflow:hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.postcomments{
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+    overflow: hidden;
+}
+.commentscon{
+    border-top: 1px solid var(--dividor2);
+    border-bottom: 1px solid var(--dividor2);
+}
+.commentscollapse{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /* padding-top: 15px;
+    padding-bottom: 15px; */
+    height: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* .commentscon::before{
+    content: "\f00d";
+    color: var(--iconbtn-d);
+    font-family: "icons";
+    font-size: 18px;
+    cursor: pointer;
+    position: absolute;
+    right: 60px;
+    top: 20px;
+} */
+/* .closecommentscon{
+    width: 100%;
+    direction: rtl;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.closecomments{
+    color: var(--iconbtn-d);
+    font-family: "icons";
+    font-size: 18px;
+    margin-right: 10px;
+} */
+.commentspool{
+    padding-top: 20px;
+    /* padding-bottom: 20px; */
+    padding-right: 10px;
+    max-height: 500px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.comment{
+    margin: 0px 0px 30px 0px;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.commenthead{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.commentprofilephoto{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: var(--elementbg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 5px;
+    margin-right: 12px;
+}
+.commentprofilename{
+    font-size: 12px;
+    color: var(--firsttxt);
+}
+.commentbody{
+    border-radius: 20px;
+    /* width: 150px; */
+    max-width: 470px;
+    min-height: 30px;
+    padding: 15px;
+    color: var(--firsttxt);
+    background-color: var(--elementbg);
+    font-size: 12px;
+    font-weight: 500;
+}
+.postcontrols{
+    width: 100%;
+    padding: 20px 35px 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.commentinput,
+.commentinputsmall{
+    resize: vertical !important;
+    min-width: 60%;
+    height: 38px;
+    min-height: 38px;
+    background-color: var(--elementbg);
+    color: var(--firsttxt);
+    font-size: 12px;
+    padding: 10px 10px 10px 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.commentinputsmall{
+    display: none;
+    max-width: 100%;
+    margin-right: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.commentinput:focus,
+.commentinputsmall:focus{
+    outline: none;
+    border: 0px solid;
+}
+.commentinput::placeholder,
+.commentinputsmall::placeholder{
+    color: var(--placeholder2);
+}
+.postcontrolsicons{
+    font-family: "icons";
+    color: var(--iconbtn-d);
+    margin-right: 8px;
+}
+.postnums{
+    font-size: 12px;
+    margin-right: 15px;
+    color: var(--firsttxt);
+}
+.postcommenticon{
+
+}
+.postcommenticon:hover{
+    color: var(--style);
+}
+.postloveicon{
+
+}
+.postloveicon:hover{
+    color: var(--love);
+}
+.postcontrolbtns{
+    min-width: 100px;
+    text-align: center;
+}
+/*-------------------*/
+/*------------profile-marawan*/
+.profilemini{
+    width: 364px;
+    padding: 30px 0px 0px 30px;
+    background-color: var(--bg-m);
+    /* border-left: 1px solid var(--dividor2); */
+    position: sticky;
+    top: 80px;
+}
+.profileinfo{
+    display: flex;
+    margin-left: -10px;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    
+}
+.fd{
+    font-family: "icons";
+    color: var(--invert);
+    font-size: 12px;
+}
+.ft{
+    font-family: "icons";
+    color: var(--secondtxt);
+    font-size: 12px;
+}
+.profileimage {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--elementbg);
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+.profilerightside{
+    margin-left: 25px;
+    padding-top: 15px;
+}
+.profilename{
+    margin-bottom: 15px;
+    color: var(--secondtxt);
+    font-size: 18px;
+
+}
+.profilespecialist{
+    margin-bottom: 15px;
+    color: var(--secondtxt);
+    font-size: 14px;
+
+}
+.profilefollowers{
+    color: var(--style);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.subscriberscon{
+    width: 100%;
+    margin-top: 40px;
+}
+.subscribers{
+ margin-bottom: 25px;
+}
+.subscriberstitle {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: var(--secondtxt)
+}
+.subscriberbar{
+    margin-bottom: 15px;
+    display: flex;
+}
+.subscriberphoto{
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    background-color: var(--elementbg);
+}
+.subscribername{
+    font-size: 14px;
+    margin-left: 20px;
+    color: var(--secondtxt);
+    display: flex;
+    align-items: center;
+}
+/*-------------------*/
