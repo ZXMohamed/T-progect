@@ -32,7 +32,7 @@ document.getElementById("sendposbtn").onclick = async() => {
             text: document.getElementById("sendposttext").value,
             time:Date.now()
         });    
-    },6000)
+    },12000)
     
 
 }
